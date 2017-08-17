@@ -1,9 +1,10 @@
-1) Place PHP's Braintree folder under  App/Vendor
-2) Place BraintreeComponent.php inside 	App/Controller/Component
+- Place PHP's Braintree folder under App/Vendor
+- Place BraintreeComponent.php inside App/Controller/Component
+- Initialize your environment and define your keys inside core.php
 
-3) Initialize your environment and define your keys inside core.php
 
-Configure::write('APP_ENV', 'local'); //options: production, development
+```sh
+Configure::write('APP_ENV', 'local'); //options: production, local
 
 Configure::write(array(
 	'environments' => array(
@@ -22,3 +23,4 @@ Configure::write(array(
 		)
 	)
 );
+```
