@@ -24,3 +24,8 @@ Configure::write(array(
 	)
 );
 ```
+
+### Todo
+- Response messages for all sandbox test amounts
+
+Feel free to contribute, and generate a pull request for bug fix/enhancement.
