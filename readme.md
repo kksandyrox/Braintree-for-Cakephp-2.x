@@ -108,6 +108,6 @@ if($("#checkout-form").length) {
 
 Feel free to contribute, and generate a pull request for bug fix/enhancement.
 
-If you like this wrapper, please feel free to contribute: 
+If you like this wrapper :): 
 - Bitcoin Address: 37nkQUYHgYeH4MmGQH1w36Sfj9fvM4ZKUY
 - Litecoin Address: LiCGcUmKHcD8mnxFBp6B6N48Gvzp7kz5Kj 
