@@ -103,6 +103,14 @@ if($("#checkout-form").length) {
 
 ```
 
+### IMPORT THE COMPONENT AND USE THE ```Braintree::makeTransaction``` METHOD
+```sh
+ public $components = array('Paginator', 'Session', 'Flash', 'Braintree');
+
+ $response = $this->Braintree->makeTransaction($amount, $this->data['payment_method_nonce']);
+ debug($response);
+ ```
+
 ### Todo
 - Response messages for all sandbox test amounts
 
